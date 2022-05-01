@@ -1,0 +1,21 @@
+.cardContainer {
+    display: flex;
+    background-image: linear-gradient(
+        -225deg,
+        #ac32e4 0%,
+        #7918f2 48%,
+        #4801ff 100%
+      );
+      color: #e2e2e2;
+
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .cardContainer:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .cardContainer {
+    padding: 2px 16px;
+  }
